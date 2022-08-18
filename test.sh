@@ -1,5 +1,5 @@
 #!/bin/bash
-# my useful comment
+# my very useful comment
 
 
 for arg
