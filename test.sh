@@ -13,3 +13,10 @@ do
 		esac
 	fi
 
+
+username=`id -nu`
+if [ "$username" != "root" ]
+then
+	echo "Must be root to run \"`basename $0`\"."
+	exit 1
+fi
