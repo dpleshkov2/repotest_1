@@ -1,4 +1,6 @@
 #!/bin/bash
+# my useful comment
+
 
 for arg
 do
